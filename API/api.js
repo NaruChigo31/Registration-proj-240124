@@ -4,8 +4,8 @@ const userDB = require('./user.js')
 const { Telegraf } = require('telegraf')
 const app = express()
 
-const bot = new Telegraf("6625629420:AAF13M5xEJm12XXA3eKm9iYz13JZuvbtaFQ")
-const adminID = "1583680031"
+const bot = new Telegraf("")
+const adminID = ""
 
 app.use(cours())
 app.use(express.json())
